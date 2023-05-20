@@ -1,0 +1,6 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (Section04Challenge.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  main.cpp
+C:\Users\folderF3T1W\source\repos\CPPExamples\Section04Challenge\main.cpp(8,26): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\folderF3T1W\source\repos\CPPExamples\Section04Challenge\main.cpp(8,26): warning C4305: инициализация: усечение из "double" в "const float"
+C:\Users\folderF3T1W\source\repos\CPPExamples\Section04Challenge\main.cpp(31,30): warning C4244: инициализация: преобразование "float" в "unsigned int", возможна потеря данных
+  Section04Challenge.vcxproj -> C:\Users\folderF3T1W\source\repos\CPPExamples\x64\Debug\Section06Challenge.exe
