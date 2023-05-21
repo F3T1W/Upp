@@ -46,3 +46,36 @@ int main() {
 
     return 0;
 }
+
+/* Issue #4 Solution
+#include <iostream>
+#include <string>
+#include <iomanip>
+
+void print_n_spaces(size_t n) {
+    std::cout << std::setfill(' ') << std::setw(n) << ' ';
+}
+
+void print_pattern(std::string_view s, size_t end) {
+    const size_t count_to_print = 2 * end + 1;
+
+    print_n_spaces(s.size() - end + 1);
+    for (size_t i = 0; i < count_to_print; ++i) {
+        char current = i <= end ? s[i] : s[count_to_print - (i + 1)];
+        std::cout << current;
+    }
+    print_n_spaces(s.size() - end + 1);
+
+    std::cout << "\n";
+}
+
+int main() {
+    std::string line;
+    std::getline(std::cin, line);
+    std::cout << '\n';
+    for (size_t i = 0; i < line.size(); ++i) {
+        print_pattern(line, i);
+    }
+    return 0;
+}
+*/
