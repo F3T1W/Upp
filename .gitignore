@@ -75,6 +75,6 @@ Section12Challenge/Section12Challenge.vcxproj.filters
 Section12Challenge/Section12Challenge.vcxproj.user
 
 x64/Debug
-.vcxproj
-.vcxproj.filters
-.vcxproj.user
+CPPExamples.vcxproj
+CPPExamples.vcxproj.filters
+CPPExamples.vcxproj.user
