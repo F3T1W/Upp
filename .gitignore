@@ -33,3 +33,13 @@
 
 *.opendb
 .vs/
+
+Section04Challenge/x64/Debug
+Section07Challenge/x64/Debug
+Section08Challenge/x64/Debug
+Section09Challenge/x64/Debug
+Section10Assignment/x64/Debug
+Section10Challenge/x64/Debug
+Section11Challenge/x64/Debug
+Section12Challenge/x64/Debug
+x64/Debug
