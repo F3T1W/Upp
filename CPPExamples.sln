@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Section04Challenge", "CPPExamples.vcxproj", "{0CFE26E1-6897-4616-8728-5C14ADDEB07E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPPExamples", "CPPExamples.vcxproj", "{0CFE26E1-6897-4616-8728-5C14ADDEB07E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Section06Challenge", "Section04Challenge\Section04Challenge.vcxproj", "{021B7AB6-6B99-4A76-AC9D-A37DA0084F12}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Section11Challenge", "Section11Challenge\Section11Challenge.vcxproj", "{0F20AE8C-B9FA-4EB1-A83D-A3E7F07289B8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Section12Challenge", "Section12Challenge\Section12Challenge.vcxproj", "{B4C7CA2D-3637-498D-BC83-7BADBC8C27FB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Section13Challenge", "Section13Challenge\Section13Challenge.vcxproj", "{68578C33-EC4E-4004-B1DD-18F9EBA23F4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -101,6 +103,14 @@ Global
 		{B4C7CA2D-3637-498D-BC83-7BADBC8C27FB}.Release|x64.Build.0 = Release|x64
 		{B4C7CA2D-3637-498D-BC83-7BADBC8C27FB}.Release|x86.ActiveCfg = Release|Win32
 		{B4C7CA2D-3637-498D-BC83-7BADBC8C27FB}.Release|x86.Build.0 = Release|Win32
+		{68578C33-EC4E-4004-B1DD-18F9EBA23F4C}.Debug|x64.ActiveCfg = Debug|x64
+		{68578C33-EC4E-4004-B1DD-18F9EBA23F4C}.Debug|x64.Build.0 = Debug|x64
+		{68578C33-EC4E-4004-B1DD-18F9EBA23F4C}.Debug|x86.ActiveCfg = Debug|Win32
+		{68578C33-EC4E-4004-B1DD-18F9EBA23F4C}.Debug|x86.Build.0 = Debug|Win32
+		{68578C33-EC4E-4004-B1DD-18F9EBA23F4C}.Release|x64.ActiveCfg = Release|x64
+		{68578C33-EC4E-4004-B1DD-18F9EBA23F4C}.Release|x64.Build.0 = Release|x64
+		{68578C33-EC4E-4004-B1DD-18F9EBA23F4C}.Release|x86.ActiveCfg = Release|Win32
+		{68578C33-EC4E-4004-B1DD-18F9EBA23F4C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
