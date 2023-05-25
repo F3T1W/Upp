@@ -29,6 +29,8 @@ int main() {
     cout << "Jaba watched field was increased" << endl;
 
     movies->Display();
+
+    delete movies;
     
     return 0;
 }
