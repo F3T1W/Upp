@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     const float smallCost{ 25.0 };
     const float largeCost{ 35.0 };
-    const float saleTax{ 0.06 };
+    const double saleTax{ 0.06 };
 
     cout << "Hello, welcome to Frank's Carpet Cleaning Service" << endl;
     cout << endl;
@@ -28,11 +28,11 @@ int main() {
     cout << "Price for small room: $" << smallCost << endl;
     cout << "Price for large room: $" << largeCost << endl;
 
-    unsigned int taxlessCost = (smallRooms * smallCost) + (largeRooms * largeCost);
+    float taxlessCost = (smallRooms * smallCost) + (largeRooms * largeCost);
 
     cout << "Cost: $" << taxlessCost << endl;
 
-    float tax = taxlessCost * saleTax;
+    double tax = taxlessCost * saleTax;
 
     cout << "Tax: $" << tax << endl;
     cout << "===============================" << endl;
