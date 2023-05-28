@@ -74,6 +74,26 @@ Section12Challenge/Section12Challenge.vcxproj
 Section12Challenge/Section12Challenge.vcxproj.filters
 Section12Challenge/Section12Challenge.vcxproj.user
 
+Section13Challenge/x64/Debug
+Section13Challenge/Section13Challenge.vcxproj
+Section13Challenge/Section13Challenge.vcxproj.filters
+Section13Challenge/Section13Challenge.vcxproj.user
+
+Section14MemberwiseChallenge/x64/Debug
+Section14MemberwiseChallenge/Section14MemberwiseChallenge.vcxproj
+Section14MemberwiseChallenge/Section14MemberwiseChallenge.vcxproj.filters
+Section14MemberwiseChallenge/Section14MemberwiseChallenge.vcxproj.user
+
+Section14GlobalwiseChallenge/x64/Debug
+Section14GlobalwiseChallenge/Section14GlobalwiseChallenge.vcxproj
+Section14GlobalwiseChallenge/Section14GlobalwiseChallenge.vcxproj.filters
+Section14GlobalwiseChallenge/Section14GlobalwiseChallenge.vcxproj.user
+
+Section15Challenge/x64/Debug
+Section15Challenge/Section15Challenge.vcxproj
+Section15Challenge/Section15Challenge.vcxproj.filters
+Section15Challenge/Section15Challenge.vcxproj.user
+
 x64/Debug
 CPPExamples.vcxproj
 CPPExamples.vcxproj.filters
