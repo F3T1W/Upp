@@ -8,7 +8,7 @@ bool Trust_Account::deposit(double amount) {
     if (balance >= 0) {
         if (balance >= 5000) {
             balance += def_bonus;
-            Savings_Account::deposit(amount);
+            Account::deposit(amount);
             return true;
         }
         else {

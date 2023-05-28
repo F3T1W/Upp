@@ -94,6 +94,11 @@ Section15Challenge/Section15Challenge.vcxproj
 Section15Challenge/Section15Challenge.vcxproj.filters
 Section15Challenge/Section15Challenge.vcxproj.user
 
+Section16Challenge/x64/Debug
+Section16Challenge/Section16Challenge.vcxproj
+Section16Challenge/Section16Challenge.vcxproj.filters
+Section16Challenge/Section16Challenge.vcxproj.user
+
 x64/Debug
 CPPExamples.vcxproj
 CPPExamples.vcxproj.filters
