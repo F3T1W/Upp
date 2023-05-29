@@ -27,6 +27,7 @@ bool Trust_Account::withdraw(double amount) {
     else
         ++_withdraw_count;
         Savings_Account::withdraw(amount);
+        return true;
 }
 
 std::ostream& operator<<(std::ostream& os, const Trust_Account& account) {
