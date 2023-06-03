@@ -8,7 +8,7 @@ bool Trust_Account::deposit(double amount) {
     if (balance >= 0) {
         if (balance >= 5000) {
             balance += def_bonus;
-            Savings_Account::deposit(amount);
+            Account::deposit(amount);
             return true;
         }
         else {
@@ -27,6 +27,7 @@ bool Trust_Account::withdraw(double amount) {
     else
         ++_withdraw_count;
         Savings_Account::withdraw(amount);
+        return true;
 }
 
 std::ostream& operator<<(std::ostream& os, const Trust_Account& account) {
